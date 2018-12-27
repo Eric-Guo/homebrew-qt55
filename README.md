@@ -17,3 +17,10 @@ Just remove the file you copy to the homebrew-core.
 ## Note
 
 Must install from bottle, if you try compile from source, it will failed, that's why the installation method is different from a normal brew tap.
+
+## How to install capybara-webkit
+
+```bash
+export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
+gem install capybara-webkit
+```
